@@ -1,0 +1,22 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define LOCAL_USER_PATH [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/LocalUserData.tmp"]
+#define COLLECTION_NEWS_PATH [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/CollectionNews.tmp"]
+#define OFFLINE_NEWS_PATH [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/OfflineNews.tmp"]
+#define NEWS_TYPES_PATH [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/NewsTypes.tmp"]
+#define NEWS_HOST @"http://192.168.0.43:8080"

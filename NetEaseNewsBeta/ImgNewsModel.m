@@ -1,0 +1,13 @@
+//
+//  ImgNewsModel.m
+//  NetEaseNewsBeta
+//
+//  Created by TY on 14-3-4.
+//  Copyright (c) 2014年 NERV. All rights reserved.
+//
+
+#import "ImgNewsModel.h"
+
+@implementation ImgNewsModel
+
+@end
